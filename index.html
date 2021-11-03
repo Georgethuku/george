@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>funtopia</title>
+        <link rel="stylesheet" href="fun.css">
+        <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css ">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="img2.jpg"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="vlog.html">VLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                  
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>The world of Funtopia</h1>
+                <p>If you are looking to have an amazing time explore our website and check out the different sites that you can visit
+                     and want to have a good time.<br> We also provide vehicles that you can use to travel within this safaris. All you need
+                    <br> to do is to contact us and we will have you sorted.</p>
+                     <a href="services.html" class="hero-btn"> visit us to know more</a>
+            </div>
+
+        </section>
+        <div class="footer-container">
+            <div class="footer">
+                <div class="footer-heading footer-1">
+                    <h1>About Us</h1>
+                    <a href="">Blog</a>
+                    <a href="">Demo</a>
+                    <a href="">Customers</a>
+                    <a href="">Investors</a>
+                    <a href="">Terms of services</a>
+
+                </div>
+                <div class="footer-heading footer-2">
+                    <h1>Contact us</h1>
+                    <a href="">Jobs</a>
+                    <a href="">Support</a>
+                    <a href="">Contact</a>
+                    <a href="">Sponsorships</a>
+                </div>
+                <div class="footer-heading footer-3">
+                    <h1>Social Media</h1>
+                    <a href="">instagram</a>
+                    <a href="">Twitter</a>
+                    <a href="">Facebook</a>
+                    <a href="">Youtube</a>
+                </div>
+                <div class="footer-email-form">
+                    <h1>Join our website</h1>
+                    <input type="email" placeholder="Enter email address" id="footer-email">
+                    <input type="submit" value="sign up" id="footer-email-btn">
+                </div>
+            </div>
+        </div>
+        
+
+       
+        <!-------javascript to open menu--->
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            function showmenu(){
+                navlinks.style.right= "0";
+            }
+            function hidemenu(){
+                navlinks.style.right= "-200px";
+            }
+        </script>
+    </body>
+   
+</html>
